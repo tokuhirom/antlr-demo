@@ -1,0 +1,4 @@
+rootProject.name = 'antlr-demo'
+include 'demo-grammer'
+include 'demo-test'
+

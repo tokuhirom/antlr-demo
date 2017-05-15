@@ -1,0 +1,20 @@
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    compile project(":demo-grammer")
+    compile 'org.antlr:antlr4-runtime:4.7'
+    testCompile 'junit:junit:4.12'
+}
+
+mainClassName = "com.example.Test"

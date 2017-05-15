@@ -1,0 +1,15 @@
+group 'com.example'
+
+apply plugin: 'java'
+apply plugin: 'antlr'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    antlr "org.antlr:antlr4:4.7"
+    testCompile 'junit:junit:4.12'
+}
